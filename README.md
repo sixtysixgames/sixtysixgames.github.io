@@ -1,5 +1,5 @@
 ## Stuff
-- [RandomWords](https://sixtysixgames.github.io/RandomWords/)
+- [Random Words Generator](https://sixtysixgames.github.io/RandomWords/)
 
 
 
