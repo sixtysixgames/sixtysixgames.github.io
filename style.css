@@ -1,0 +1,161 @@
+/*
+Copyright (C) 2021 sixtysixgames
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+/* 
+    Created on : 7 Aug 2021, 10:59:41
+    Author     : sixtysixgames
+*/
+/*body styles*/
+body { 	
+	margin: 0;
+	font-family: Arial, sans-serif;
+	color: #000000;
+	font-size: medium;
+	background-color: #ffffff;
+	background: #ffffff;
+	height: 100%;
+}
+
+form { display: inline; }
+
+/*table styles*/
+table {
+	padding: 0;
+	margin: 0;
+}
+
+table.bordered {
+	border: 1px black solid;
+}
+
+td { 
+	padding: 0;
+	margin: 0;
+	vertical-align: top;
+}
+
+td.sidebar { background-color: #cccccc; }
+
+th, td {font-size: small;}
+
+th.header {
+	color: #ffffff;
+	background-color: #000000;
+}
+
+td.shaded {
+	background-color: #cccccc;
+}
+
+/*paragraph styles*/
+p { margin-top: 1px;}
+
+p.small { font-size: x-small; }
+
+/*link styles*/
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:visited {color: #000099;}
+
+a.small { font-size: x-small;}
+
+/*header styles*/
+h1 {
+	font-size: x-large;
+	margin: 4px 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: large;
+	margin: 3px 0;
+	padding: 0;
+	color: #ffffff;
+	background: #666666;
+}
+
+h3 {
+	font-size: medium;
+	margin: 2px 0;
+	padding: 0;
+}
+h3.panel_header_small {
+	background: #cccccc;
+}
+h3.panel_header_large {
+	background: #bbbbbb;
+}
+
+h4 { 
+	margin: 1px 0;
+	padding: 1px 0;
+	font-size: medium;
+	font-style: italic;
+	background: #eeeeee;
+}
+
+/*image styles*/
+img.imagelink {border: 0;}
+
+/*div styles*/
+div {margin: 0; padding: 0;}
+
+div.header {
+	padding: 0 2px;
+	color: #ffffff;
+	background-color: #000000;
+	font-weight: bold;
+}
+div.header_logo {
+	position: relative;
+	height: 100px;
+}
+div.mainbody {
+	position: absolute;
+	top: 100px;
+	width: 100%;
+	/*xheight: 200%;*/
+	padding: 0;
+	/*border : 1px blue solid;*/
+}
+
+div.content {
+	/*position: absolute;*/
+	float: left;
+	left: 16%;
+	top: 10px;
+	width: 66%;
+	padding-left: 1%;
+	padding-right: 1%;
+	/*border: 1px solid green;*/
+}
+div.footer {
+	clear: both;
+	position: relative;
+	text-align: center;
+	vertical-align: bottom;
+	/*border : 1px black solid;*/
+	margin-bottom: 0px;
+}
+
+/*sundry styles*/
+form { display: inline; }
+hr { color: #ff0000; }
+
+.indent {
+	margin: 0px 120px;
+}
+.shaded { background: #cccccc;}
