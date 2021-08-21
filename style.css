@@ -29,8 +29,6 @@ body {
 	height: 100%;
 }
 
-form { display: inline; }
-
 /*table styles*/
 table {
 	padding: 0;
@@ -135,9 +133,9 @@ div.mainbody {
 div.content {
 	/*position: absolute;*/
 	float: left;
-	left: 16%;
+	left: 25%;
 	top: 10px;
-	width: 66%;
+	width: 50%;
 	padding-left: 1%;
 	padding-right: 1%;
 	/*border: 1px solid green;*/
